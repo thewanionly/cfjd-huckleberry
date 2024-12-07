@@ -4,9 +4,46 @@
 }
 
 html,
-body {
+body,
+h1,
+h2,
+p {
   margin: 0;
   padding: 0;
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+  padding-inline: 24px;
+  max-width: 800px;
+}
+
+.intro-chunk {
+  margin: 96px 0 64px;
+  max-width: 415px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 38.4px;
+  color: hsl(0deg, 0%, 0%);
+  margin-bottom: 48px;
+}
+
+.intro-chunk p {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 30px;
+  letter-spacing: -0.5;
+  color: hsl(0deg, 0%, 0%);
+  margin-bottom: 16px;
+}
+
+.intro-chunk strong {
+  font-weight: 800;
+  font-size: 1.25rem;
+  line-height: 30px;
+  letter-spacing: -0.5;
+  color: hsl(160deg, 100%, 30%);
+}

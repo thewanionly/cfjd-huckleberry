@@ -58,7 +58,7 @@ main {
 .card {
   background-color: hsl(0deg, 0%, 100%);
   margin-inline: -24px;
-  padding: 24px;
+  padding: 8px 24px 24px;
   border-bottom: 8px solid hsl(0deg, 0%, 60%);
 }
 
@@ -67,7 +67,13 @@ main {
   font-size: 1.5rem;
   line-height: 28.8px;
   color: hsl(0deg, 0%, 0%);
-  margin-bottom: 42px;
+  margin-bottom: 16px;
+  margin-left: -32px;
+  padding: 16px 32px;
+  width: fit-content;
+
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
 }
 
 .card p {

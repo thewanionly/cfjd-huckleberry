@@ -61,3 +61,19 @@ main {
   padding: 24px;
   border-bottom: 8px solid hsl(0deg, 0%, 60%);
 }
+
+.indented-heading {
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 28.8px;
+  color: hsl(0deg, 0%, 0%);
+  margin-bottom: 42px;
+}
+
+.card p {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 30px;
+  color: hsl(0deg, 0%, 0%);
+  margin-bottom: 16px;
+}
